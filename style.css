@@ -1,0 +1,58 @@
+.amazon{
+    background-color: rgb(255,216,20);
+    color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    font-size: larger;
+    transition: opacity 0.15s;
+    transition: background-color 0.15s,color 0.15s;
+    font-size: larger;
+}
+.amazon:hover{
+    opacity:0.8;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.7);
+}
+.amazon:active{
+    background-color: yellow;
+    opacity:0.6;
+}
+.money{
+    font-weight: bold;
+    color: green;
+}
+.h1{
+    font-weight: bold; 
+}
+.buy{
+    background-color: orangered;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    transition: opacity 0.15s;
+    transition: background-color 0.15s,color 0.15s;
+    font-size: larger;
+}
+.buy:hover{
+    opacity:0.8;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.7);
+}
+.buy:active{
+    background-color: orangered;
+    opacity:0.6;
+}
+.delivery{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.heading{
+    font-size: 50px;
+}
+.image:hover{
+     opacity:0.6; 
+}
+.image:active{
+    opacity:0.4;
+}

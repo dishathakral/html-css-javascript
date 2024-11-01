@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+        }
+        .stretch-button {
+            width: 100px;
+            height: 50px;
+            transition: flex-grow 0.3s ease; /* Smooth transition */
+            flex-grow: 0;
+        }
+
+        .stretch-button:hover {
+            flex-grow: 0.1; /* Grow to fill the remaining space in the container */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="stretch-button">Hover Me</button>
+    </div>
+</body>
+</html>

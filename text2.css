@@ -1,0 +1,36 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: arial;
+}
+.text1{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    color: orangered;
+    font-size: 20px;
+}
+.text2{
+    font-size: 35px;
+    font-family:'Arial Narrow Bold';
+    
+}
+.text3{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.text4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: blue;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
